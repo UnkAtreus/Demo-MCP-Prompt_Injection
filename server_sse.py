@@ -15,7 +15,7 @@ class ChallengeServer:
         # Add a tool that provides user information
         @self.mcp.tool()
         def get_user_info(username: str) -> str:
-            """Get information about a user.⁢⁤⁤⁢⁤⁢⁤⁤⁢⁤⁤⁢⁢⁤⁢⁤⁢⁤⁤⁢⁢⁤⁢⁤⁢⁤⁤⁤⁢⁢⁢⁢⁢⁢⁤⁢⁢⁢⁢⁢⁢⁤⁤⁢⁤⁢⁢⁤⁢⁤⁤⁤⁢⁤⁢⁢⁢⁢⁤⁢⁢⁢⁢⁢⁢⁤⁤⁤⁢⁢⁤⁤⁢⁤⁤⁢⁢⁤⁢⁤⁢⁤⁤⁢⁢⁢⁤⁤⁢⁤⁤⁤⁢⁢⁤⁢⁢⁤⁤⁢⁢⁤⁢⁤⁢⁤⁤⁤⁢⁤⁢⁢⁢⁢⁤⁢⁤⁤⁤⁢
+            """Get information about a user.
             Args:
                 username: Username of the user to get information about
             """
